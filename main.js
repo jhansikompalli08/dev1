@@ -14,4 +14,4 @@
 //}
  var li=document.getElementsByTagName('li');
  console.log(li);
- console.log(li[1]);
+ console.log(li[2]);
