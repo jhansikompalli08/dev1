@@ -12,6 +12,10 @@
 //for(var i=0;i<items.length;i++){
     //items[i].style.fontWeight='bold';
 //}
- var li=document.getElementsByTagName('li');
- console.log(li);
- console.log(li[2]);
+// var li=document.getElementsByTagName('li');
+ //console.log(li);
+ //li[1].style.backgroundColor='green';
+  var secondItem=document.querySelector('.list-group-item:nth-child(2)');
+  secondItem.style.backgroundColor='green';
+  var thirdItem=document.querySelector('.list-group-item:nth-child(3)');
+  thirdItem.style.visibility='hidden';
